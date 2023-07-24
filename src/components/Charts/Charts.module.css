@@ -1,0 +1,23 @@
+.line_chart {
+    width: 60%;
+    /* box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.3); */
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+
+.pie_chart {
+    width: 40%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+}
+
+.container {
+    padding: 1rem 2rem;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+}
