@@ -6,7 +6,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DesktopDatePicker } from '@mui/x-date-pickers';
 import ITransfer from '../interfaces/ITransfet';
 import { useSelector } from "react-redux";
-import { RootState } from "../../../store/reducer";
+import { RootState } from "@store/reducer";
 
 const Transfer: React.FC = () => {
     const accounts: string[] = useSelector((state: RootState) => state.accounts);

@@ -1,25 +1,27 @@
-export const addTransaction = (transaction) => ({
+import ITransaction from "./interfaces/ITransaction";
+
+export const addTransaction = (transaction: ITransaction[]) => ({
   type: "ADD_TRANSACTION",
   payload: transaction,
 });
 
-export const getTransactions = (transactions) => {
+export const getTransactions = (transactions: ITransaction[]) => {
   return {
     type: "GET_TRANSACTIONS",
     payload: transactions,
   };
 };
 
-export const getAccounts = (accounts) => {
+export const getAccounts = (accounts: string[]) => {
   return {
     type: "GET_ACCOUNTS",
     payload: accounts,
   };
 };
 
-export const getExpenses = (accounts) => {
+export const getExpenses = (expenses: string[]) => {
   return {
     type: "GET_EXPENSES",
-    payload: accounts,
+    payload: expenses,
   };
 };

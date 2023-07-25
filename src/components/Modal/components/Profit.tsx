@@ -6,7 +6,7 @@ import dayjs from 'dayjs';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import IProfit from '../interfaces/IProfit';
 import { useSelector } from "react-redux";
-import { RootState } from "../../../store/reducer";
+import { RootState } from ".@store/reducer";
 
 const Profit = () => {
     const accounts: string[] = useSelector((state: RootState) => state.accounts);

@@ -49,7 +49,6 @@ const initialState = {
       comment: "Trash",
       date: "2017-06-01T00:00:00",
     },
-    
   ],
   accounts: ["Google Pay", "PayPal", "Bank Account", "Cash"],
   expenses: ["Trash", "Taxes", "Rent", "Groceries", "Transportation"],
